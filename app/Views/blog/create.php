@@ -13,12 +13,12 @@
 <form class="" action="/blog/create" method="post"> 
 <!-- method="post" sends the information input-->
   <div class="form-group">
-<label for="change"><strong>Title:</strong></label>
+<label for="change"><strong>Name:</strong></label>
 <!-- these name='title' is coming from the table data, which is being passed from the Pages.php controller -->
 <input type="text" class="form-control" name="title" id="change" value="">
   </div>
   <div class="form-group">
-<label for="change"><strong>Body</strong></label>
+<label for="change"><strong>Description</strong></label>
 <!-- these name='body' is coming from the table data, which is being passed from the Pages.php controller -->
 <textarea class="form-control" name="body" id="body" cols="30" rows="10"></textarea>
   </div>
