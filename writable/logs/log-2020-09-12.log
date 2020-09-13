@@ -1,0 +1,111 @@
+CRITICAL - 2020-09-12 03:52:11 --> Invalid file: blog/create.php
+#0 /opt/lampp/htdocs/toyExchange/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/create.php')
+#1 /opt/lampp/htdocs/toyExchange/system/Common.php(1119): CodeIgniter\View\View->render('blog/create', Array, true)
+#2 /opt/lampp/htdocs/toyExchange/app/Controllers/Blog.php(27): view('blog/create')
+#3 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(918): App\Controllers\Blog->create()
+#4 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/toyExchange/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-12 04:02:44 --> Invalid file: blog/create.php
+#0 /opt/lampp/htdocs/toyExchange/system/View/View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('blog/create.php')
+#1 /opt/lampp/htdocs/toyExchange/system/Common.php(1119): CodeIgniter\View\View->render('blog/create', Array, true)
+#2 /opt/lampp/htdocs/toyExchange/app/Controllers/Blog.php(27): view('blog/create')
+#3 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(918): App\Controllers\Blog->create()
+#4 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/toyExchange/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-12 18:16:16 --> Class 'App\Models\Model' not found
+#0 /opt/lampp/htdocs/toyExchange/system/Autoloader/Autoloader.php(365): require_once()
+#1 /opt/lampp/htdocs/toyExchange/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/toyExchange/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Blog...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Blog...')
+#4 /opt/lampp/htdocs/toyExchange/app/Controllers/Pages.php(9): spl_autoload_call('App\\Models\\Blog...')
+#5 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/toyExchange/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-12 18:16:44 --> Class 'CodeIgniter\Models' not found
+#0 /opt/lampp/htdocs/toyExchange/system/Autoloader/Autoloader.php(365): require_once()
+#1 /opt/lampp/htdocs/toyExchange/system/Autoloader/Autoloader.php(296): CodeIgniter\Autoloader\Autoloader->requireFile('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/toyExchange/system/Autoloader/Autoloader.php(258): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Blog...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Blog...')
+#4 /opt/lampp/htdocs/toyExchange/app/Controllers/Pages.php(9): spl_autoload_call('App\\Models\\Blog...')
+#5 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(918): App\Controllers\Pages->index()
+#6 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+#7 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/toyExchange/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-09-12 19:43:44 --> Allowed fields must be specified for model: App\Models\BlogModel
+#0 /opt/lampp/htdocs/toyExchange/system/Model.php(1265): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\Blog...')
+#1 /opt/lampp/htdocs/toyExchange/system/Model.php(735): CodeIgniter\Model->doProtectFields(Array)
+#2 /opt/lampp/htdocs/toyExchange/system/Model.php(574): CodeIgniter\Model->insert(Array, false)
+#3 /opt/lampp/htdocs/toyExchange/app/Controllers/Blog.php(36): CodeIgniter\Model->save(Array)
+#4 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(918): App\Controllers\Blog->create()
+#5 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#6 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/toyExchange/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-09-12 20:22:18 --> Class 'Config\Service' not found
+#0 /opt/lampp/htdocs/toyExchange/system/View/View.php(246): include()
+#1 /opt/lampp/htdocs/toyExchange/system/Common.php(1119): CodeIgniter\View\View->render('blog/create', Array, true)
+#2 /opt/lampp/htdocs/toyExchange/app/Controllers/Blog.php(29): view('blog/create')
+#3 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(918): App\Controllers\Blog->create()
+#4 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#5 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/toyExchange/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-09-12 22:01:21 --> syntax error, unexpected 'return' (T_RETURN), expecting ')'
+#0 /opt/lampp/htdocs/toyExchange/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('blog/create')
+#1 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('blog/create')
+#2 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/toyExchange/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-12 22:02:18 --> syntax error, unexpected 'return' (T_RETURN), expecting ')'
+#0 /opt/lampp/htdocs/toyExchange/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('blog/create')
+#1 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('blog/create')
+#2 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/toyExchange/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-12 22:03:04 --> syntax error, unexpected 'return' (T_RETURN)
+#0 /opt/lampp/htdocs/toyExchange/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('blog/create')
+#1 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('blog/create')
+#2 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/toyExchange/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-12 22:05:57 --> syntax error, unexpected 'return' (T_RETURN)
+#0 /opt/lampp/htdocs/toyExchange/system/Router/Router.php(195): CodeIgniter\Router\Router->autoRoute('blog/create')
+#1 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(793): CodeIgniter\Router\Router->handle('blog/create')
+#2 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(364): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/toyExchange/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-09-12 22:38:30 --> syntax error, unexpected '?>'
+#0 /opt/lampp/htdocs/toyExchange/system/Common.php(1119): CodeIgniter\View\View->render('blog/post', Array, true)
+#1 /opt/lampp/htdocs/toyExchange/app/Controllers/Blog.php(16): view('blog/post')
+#2 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(918): App\Controllers\Blog->post('This-is-a-new-t...')
+#3 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#4 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/toyExchange/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-12 22:39:53 --> syntax error, unexpected '?>'
+#0 /opt/lampp/htdocs/toyExchange/system/Common.php(1119): CodeIgniter\View\View->render('blog/post', Array, true)
+#1 /opt/lampp/htdocs/toyExchange/app/Controllers/Blog.php(16): view('blog/post')
+#2 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(918): App\Controllers\Blog->post('This-is-a-new-t...')
+#3 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#4 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/toyExchange/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2020-09-12 22:40:25 --> syntax error, unexpected '?>'
+#0 /opt/lampp/htdocs/toyExchange/system/Common.php(1119): CodeIgniter\View\View->render('blog/post', Array, true)
+#1 /opt/lampp/htdocs/toyExchange/app/Controllers/Blog.php(16): view('blog/post')
+#2 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(918): App\Controllers\Blog->post('This-is-a-new-t...')
+#3 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(404): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Blog))
+#4 /opt/lampp/htdocs/toyExchange/system/CodeIgniter.php(312): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/toyExchange/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#6 {main}
